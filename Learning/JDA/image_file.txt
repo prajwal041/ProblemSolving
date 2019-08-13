@@ -1,0 +1,4 @@
+http://mywebserver.com/images/271947.jpg
+http://mywebserver.com/images/24174.jpg
+http://somewebsrv.com/img/992147.jpg
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRKMdZ10kx36VFBUQ9592PUZDG9YE9U2MyAJn3nRbqabO7faV

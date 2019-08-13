@@ -1,0 +1,57 @@
+Author: Prajwal Shetty
+
+This Documentation will explains in depth about information about Software Library
+Schema:
+Simple HashMap Cache
+____________
+|key | value|
+|           |
+|___________|
+
+Including time drift w.r.t value in the cache
+_______________________________
+|name | time expire in seconds|
+| A   |    10                 |
+| B   |    20                 |
+| c   |    15                 |
+|_____________________________|
+
+when cache size=3, & if you tried to add 'D' then A will be taken out
+_______________________________
+|name | time expire in seconds|
+| D   |    30                 |
+| B   |    20                 |
+| c   |    15                 |
+|_____________________________|
+
+Time complexity:
+Adding to the cache:    T ~ O(n)
+Removing the data  :    T ~ O(n)
+Data Retrieval     :    T ~ O(1)
+cleanup            :    T ~ O(n)
+
+where n is the no of the elements in the cache
+
+Additional Functionality:
+- Time stamp for the data in cache, apart from time expiration cache individual data can be expired after threshold time.
+- Threading is used to acheieve data consistency for many users across different Geolocations
+
+Library Usage:
+First user will be prompted with maximum size of cache: (Enter the integer value)
+Enter the time when it needs to be cleaned up in minutes: (Enter the integer value)
+then user prompted with 4 options:
+add
+get
+cleanup
+quit
+
+enter the respective options,
+add     - will added to the cache
+get     - retrieve data, make sure you are requesting for the data which is in cache,
+cleanup - will clear the cache after cache time drift.
+quit    - break the prompt
+
+see an example for input in: https://github.com/prajwal041/ProblemSolving/blob/master/vanhack/Ormuco/LRU_cache_input
+
+
+

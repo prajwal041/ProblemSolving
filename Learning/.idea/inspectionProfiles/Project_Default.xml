@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="Jda_assignment" />
+          <option value="annoy.AnnoyIndex" />
         </list>
       </option>
     </inspection_tool>

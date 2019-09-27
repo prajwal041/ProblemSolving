@@ -21,6 +21,6 @@ class Solution:
         # Find the maximum element in P.
         maxLen, centerIndex = max((n, i) for i, n in enumerate(P))
         return s[(centerIndex - maxLen) // 2: (centerIndex + maxLen) // 2]
-string = "kiomaramol"
+string = "aaaabbaa"
 s = Solution()
 print(s.longestPalindrome(string))

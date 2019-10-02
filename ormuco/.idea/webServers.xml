@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="67629698-9ead-4cb5-a29b-1ab78c6ad36d" name="ec2-13-58-247-43.us-east-2.compute.amazonaws.com" url="http://ec2-13-58-247-43.us-east-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-13-58-247-43.us-east-2.compute.amazonaws.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="92d5847b-02df-4855-a311-819d4079b1c6" name="ec2-3-15-218-119.us-east-2.compute.amazonaws.com" url="http://ec2-3-15-218-119.us-east-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-3-15-218-119.us-east-2.compute.amazonaws.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

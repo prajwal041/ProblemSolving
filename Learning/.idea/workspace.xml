@@ -2,8 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11dfdc43-0a78-4eb3-950b-3beaa09905e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DSA/Recursion/combination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Recursion/factorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Recursion/fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Recursion/power.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Recursion/tower_of_hanoi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/manchar's_alogorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/Long_palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/Remove_adj_duplicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/Reverse_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/Roman_to_integer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/Sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/form_palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/missing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/permutation_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/remove_dup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/remove_duplicates_recur.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/problems/sorted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Strings/z_algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geeksforgeeks/Dynamic Programming/min_cost_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geeksforgeeks/arrays/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geeksforgeeks/arrays/case_sensitive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dfs_problems/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/dfs_problems/bishu_gf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanhack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanhack/angry_animals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vanhack/stock_plan_week.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vanhack/prime_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/vanhack/prime_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppleOrange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayManipulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigSum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FInd_substring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashParlor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kadane's.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mark_Toys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Missing_number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RotateLeft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/anagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/anagrams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arr_queries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardinality_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding_gladiator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagonal_diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fibonacci.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_pair.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get-pip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lru.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minbribe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minswap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plusminus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleIDE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/staircase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sum_digit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triplet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/.idea/vanhack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/Assignment/LRU_cache_documentation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/Assignment/LRU_cache_input" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/Assignment/Prajwal_Shetty_CachetimeExp_QuestionC.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/Assignment/Prajwal_Shetty_Overlapping_line_OuestionA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/Assignment/Prajwal_Shetty_String_verision_QuestionB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/Assignment/QuestionC.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/GCD_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/Reverse_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/Yelp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/julia_travel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/non-prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/vanhack/non-prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/prime_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/reformdate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/stockweek.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanhack/zolando/min_no_digit.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +118,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vplex_Dev" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\shettp6\PycharmProjects\Learning\vanhack" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shettp6\PycharmProjects\Learning\Multiprocessing&amp;Annoy" />
       <recent name="C:\Users\shettp6\PycharmProjects\Learning\JDA" />
       <recent name="C:\Users\shettp6\PycharmProjects\Learning\google_lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shettp6\PycharmProjects\Learning\vanhack" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,8 +142,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.samlpe">
-    <configuration name="annoy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tower_of_hanoi">
+    <configuration name="combination" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,12 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JDA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/Recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JDA/annoy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/combination.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="annoy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,12 +173,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/Recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiprocessing&amp;Annoy/annoy.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/factorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="samlpe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,12 +195,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JDA" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/Recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JDA/samlpe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/fibonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +209,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sample1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="power" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,12 +217,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/Recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Multiprocessing&amp;Annoy/sample1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/power.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +231,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vowelsubstring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tower_of_hanoi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,12 +239,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Inno" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/Recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Inno/vowelsubstring.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/tower_of_hanoi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.samlpe" />
-        <item itemvalue="Python.sample1" />
-        <item itemvalue="Python.annoy" />
-        <item itemvalue="Python.annoy (1)" />
-        <item itemvalue="Python.vowelsubstring" />
+        <item itemvalue="Python.tower_of_hanoi" />
+        <item itemvalue="Python.combination" />
+        <item itemvalue="Python.power" />
+        <item itemvalue="Python.fibonacci" />
+        <item itemvalue="Python.factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +284,10 @@
       <workItem from="1567008321557" duration="854000" />
       <workItem from="1567107574073" duration="1521000" />
       <workItem from="1567194340248" duration="1537000" />
+      <workItem from="1570472636931" duration="588000" />
+      <workItem from="1570739380876" duration="165000" />
+      <workItem from="1570740093735" duration="962000" />
+      <workItem from="1572348640554" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="12th march">
       <created>1557632494313</created>
@@ -274,16 +352,18 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Learning$m1.coverage" NAME="m1 Coverage Results" MODIFIED="1566506442138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
-    <SUITE FILE_PATH="coverage/Learning$vowelsubstring.coverage" NAME="vowelsubstring Coverage Results" MODIFIED="1566547125257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inno" />
     <SUITE FILE_PATH="coverage/Learning$test.coverage" NAME="test Coverage Results" MODIFIED="1566167065662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Learning$sample1.coverage" NAME="sample1 Coverage Results" MODIFIED="1566688875048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
     <SUITE FILE_PATH="coverage/Learning$locks.coverage" NAME="locks Coverage Results" MODIFIED="1566333039246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
     <SUITE FILE_PATH="coverage/Learning$matching.coverage" NAME="matching Coverage Results" MODIFIED="1566543403577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inno" />
-    <SUITE FILE_PATH="coverage/Learning$annoy.coverage" NAME="annoy Coverage Results" MODIFIED="1566686202698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
-    <SUITE FILE_PATH="coverage/Learning$regex.coverage" NAME="regex Coverage Results" MODIFIED="1566506000447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
+    <SUITE FILE_PATH="coverage/Learning$subarray_sum.coverage" NAME="subarray_sum Coverage Results" MODIFIED="1570740176604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/geeksforgeeks/arrays" />
     <SUITE FILE_PATH="coverage/Learning$samlpe.coverage" NAME="samlpe Coverage Results" MODIFIED="1567270563343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDA" />
-    <SUITE FILE_PATH="coverage/Learning$regex__1_.coverage" NAME="regex (1) Coverage Results" MODIFIED="1566546557862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inno" />
     <SUITE FILE_PATH="coverage/Learning$pool.coverage" NAME="pool Coverage Results" MODIFIED="1566333129139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
     <SUITE FILE_PATH="coverage/Learning$annoy__1_.coverage" NAME="annoy (1) Coverage Results" MODIFIED="1566686177560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JDA" />
+    <SUITE FILE_PATH="coverage/Learning$vowelsubstring.coverage" NAME="vowelsubstring Coverage Results" MODIFIED="1566547125257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inno" />
+    <SUITE FILE_PATH="coverage/Learning$sample1.coverage" NAME="sample1 Coverage Results" MODIFIED="1566688875048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
+    <SUITE FILE_PATH="coverage/Learning$annoy.coverage" NAME="annoy Coverage Results" MODIFIED="1566686202698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
+    <SUITE FILE_PATH="coverage/Learning$regex.coverage" NAME="regex Coverage Results" MODIFIED="1566506000447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Multiprocessing&amp;Annoy" />
+    <SUITE FILE_PATH="coverage/Learning$regex__1_.coverage" NAME="regex (1) Coverage Results" MODIFIED="1566546557862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inno" />
+    <SUITE FILE_PATH="coverage/Learning$check_panagrams.coverage" NAME="check_panagrams Coverage Results" MODIFIED="1570472991837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Strings/problems" />
   </component>
 </project>

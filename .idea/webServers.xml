@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="90b6d7d6-8853-4175-b5f1-2e2a2d41150b" name="10.141.11.186" url="http://10.141.11.186">
+        <fileTransfer host="10.141.11.186" port="22" rootFolder="/home/shettp6/Vplex_Dev" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="214b8673-e14d-454d-b1e3-63d519568161" name="10.118.245.39" url="http://10.118.245.39">
+        <fileTransfer host="10.118.245.39" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c17a799c-ce89-42a2-948b-36ab25540dda" name="slave" url="http://ec2-3-15-218-119.us-east-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-3-15-218-119.us-east-2.compute.amazonaws.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="97eb4d0c-424a-45db-9f7e-5be14129a888" name="master" url="http://ec2-13-58-247-43.us-east-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-13-58-247-43.us-east-2.compute.amazonaws.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

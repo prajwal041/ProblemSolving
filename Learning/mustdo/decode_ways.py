@@ -2,6 +2,7 @@ def decode(s):
     n = len(s)+1
     dp = [0] * n
     dp[0] = 1
+
     for i in range(1, n):
         if s[i-1] in '123456789':
             dp[i] = dp[i-1]

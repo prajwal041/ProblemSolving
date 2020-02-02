@@ -41,3 +41,19 @@ output = [1,2]
 print(topKelement(arr, k))
 # d = {'A':1, 'B': 2, 'C': 2}
 # print(list(d.keys())[list(d.values()).index(0)])
+
+
+
+arr=['exp1', 'exp2','exp3', 'exp2', 'exp3']
+k = 2
+def topKexp(arr,k):
+    heap = []
+    for i, c in Counter(arr).items():
+        heappush(heap, (-c, i))
+
+    result= []
+    for _ in range(k):
+        result.append(heappop(heap)[1])
+    return result
+
+print(topKexp(arr, k))

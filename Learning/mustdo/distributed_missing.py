@@ -1,6 +1,6 @@
 def missing(a):
     from heapq import heapify
-    miss = [x for x in range(a[0], max(a)) if x not in a]
+    miss = [x for x in range(min(a), max(a)) if x not in a]
     if len(miss)==0:
         return a[-1]+1
     heapify(miss)

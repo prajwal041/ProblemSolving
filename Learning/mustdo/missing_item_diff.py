@@ -28,3 +28,5 @@ def missing1(l1,l2):
 l1 = [1,2,3,4]
 l2 = [1,4]
 print(missing1(l1,l2))
+
+s = "dnn\nhbwbh\n"

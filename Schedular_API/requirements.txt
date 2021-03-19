@@ -1,5 +1,5 @@
 Babel==2.4.0
 Django>=2.0,<3.0
 psycopg2>=2.7,<3.0
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 pytz==2017.2

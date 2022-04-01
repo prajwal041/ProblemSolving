@@ -1,0 +1,6 @@
+ROLE_ID=25f32932-4c38-500d-e08f-7b75d6919f68
+ROLE_SECRET=70240597-82a2-61eb-6989-83a87af34c0a
+#This is a comment
+
+  ENVIRONMENT = Dev
+S3_SFTP=example.net

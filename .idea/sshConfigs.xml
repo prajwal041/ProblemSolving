@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="10.141.11.186" id="f9b33229-11f8-4edb-ae44-f6181df4fd60" port="22" customName="10.141.11.186" nameFormat="CUSTOM" useOpenSSHConfig="true">
+        <option name="customName" value="10.141.11.186" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="10.118.245.39" id="57959778-65a0-4040-8491-7928654e21fa" port="22" customName="10.118.245.39" nameFormat="CUSTOM" useOpenSSHConfig="true">
+        <option name="customName" value="10.118.245.39" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ec2-3-15-218-119.us-east-2.compute.amazonaws.com" id="720ca96e-285b-4295-91c7-d21f8f07de6b" port="22" customName="slave" nameFormat="CUSTOM" useOpenSSHConfig="true">
+        <option name="customName" value="slave" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="ec2-13-58-247-43.us-east-2.compute.amazonaws.com" id="57f44dca-f423-4b95-8429-3c2dde09c91b" port="22" customName="master" nameFormat="CUSTOM" useOpenSSHConfig="true">
+        <option name="customName" value="master" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

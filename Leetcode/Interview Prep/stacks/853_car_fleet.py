@@ -14,7 +14,7 @@ Space: O(n)
 '''
 
 target = 12
-position = [10,8,0,5,3]
-speed = [2,4,1,1,3]
+position = [10, 8, 0, 5, 3]
+speed = [2, 4, 1, 1, 3]
 # Expected Output: 3
 print(carFleet(target, position, speed))

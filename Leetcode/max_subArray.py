@@ -23,3 +23,9 @@ def max_Array(arr):
     return fmax or max(arr)
 num = [-1,-2]
 print(max_Array(num))
+
+'''
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: The subarray [4,-1,2,1] has the largest sum 6.
+'''

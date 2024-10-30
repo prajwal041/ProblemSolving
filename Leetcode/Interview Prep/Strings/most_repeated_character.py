@@ -12,6 +12,11 @@ def most_repeated_character(s):
     '''
     # Solution 2
     count_dict = Counter(s)
+
+    print(f"count_dict: {count_dict}")
+    max_val = max(count_dict.values())
+    max_key1 = list(count_dict.keys())[list(count_dict.values()).index(max_val)]
+    print(f"max_key1: {max_key1}")
     #max_key = max(count_dict, key =lambda x: count_dict[x])
     max_key = max(zip(count_dict.keys(), count_dict.values()))[0]
     return max_key

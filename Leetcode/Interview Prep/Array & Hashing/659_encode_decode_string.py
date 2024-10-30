@@ -22,11 +22,6 @@ class Solution:
 Time & space complexicity: O(n) , n of characters
 """
 
-
-
-
-
-
 input = ["neet", "code"]
 s = Solution()
 encode = s.encode(input)

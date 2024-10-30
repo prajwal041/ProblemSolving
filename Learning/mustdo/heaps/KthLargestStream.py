@@ -4,10 +4,10 @@ from heapq import heappop, heapify
 def KthLargest(arr, k):
     heap = heapify(arr)
     print(heap)
-    # if len(arr)>=k:
-    #     return heap[k - 1]
-    # else:
-    #     return -1
+    if len(arr)>=k:
+        return heap[k - 1]
+    else:
+        return -1
 
 
 m = int(input())

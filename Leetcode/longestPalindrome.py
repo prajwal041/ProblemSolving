@@ -4,6 +4,18 @@ Input: s = "babad"
 Output: "bab"
 Explanation: "aba" is also a valid answer.
 """
+import time
+def get_runtime(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        runtime = end-start
+        print(f"Function: {func.__name__} took {runtime} seconds.!")
+        return result
+    return wrapper
+
+@get_runtime
 def long_palindrome(s):
     res = ""
     resLen = 0

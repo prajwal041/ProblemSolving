@@ -12,7 +12,7 @@
     Spark Streaming: Consumes log data from Kafka and processes it in real-time.
     Output: Store processed data in a database (e.g., HDFS, Cassandra, or MySQL) or visualize it using tools like Grafana or Kibana.
 
-# 3. Setup
+# 3. Setup - Manual
     Start zookeeper first:
     zookeeper-server-start /opt/homebrew/etc/kafka/zookeeper.properties
 
@@ -37,5 +37,24 @@
     kafka-console-consumer --topic test-topic --from-beginning --bootstrap-server localhost:9092
 
     You should see the messages you produced earlier.
+
+# Start the Kafka & Zookeeper - Terminal 1
+    $ ./scripts/start_kafka.sh
+        You should see topics created with zookeeper
+
+# Send messages via Producer - Terminal 2
+    $ python3 src/producer/log_producer.py
+        You should see message sent
+
+# Collect the data via Spark Consumer - Terminal 3
+    $ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 src/spark_streaming/log_analytics.py
+        Logs are collected in output/ directory in parquet & json file format
+        Spark checksums data is collected in checkpoints/ directory
     
+# Stop the service
+    In Terminal 3: ctrl + c: stop the consumer
+    In Terminal 2: ctrl + c: stop the producer
+    In Terminal 3: kafka-server-stop
+                   zookeeper-server-stop
+        This stops kafka & zookeeper connections
     

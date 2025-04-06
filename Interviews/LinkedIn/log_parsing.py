@@ -6,6 +6,20 @@ import re
 import csv
 from collections import defaultdict
 
+import time
+def get_message(param):
+    def get_runtime(func):
+        def wrapper(*args, **kwargs):
+            start = time.time()
+            result = func(*args, **kwargs)
+            end = time.time()
+            runtime = end - start
+            print(f"{param}: function {func.__name__} took {runtime} secs")
+            return result
+        return wrapper
+    return get_runtime
+
+@get_message("DEBUG")
 def parse_syslog_generate_csv(input_file, output_file):
     minutes_count = defaultdict(int)
     file = open(input_file, 'r')
@@ -29,6 +43,7 @@ def parse_syslog_generate_csv(input_file, output_file):
     file.close()
     print(f"Successfully wrote data to {output_file}")
 
+@get_message("LOG")
 def parse_syslog_generate_programs(input_file, output_file):
     minute_data = defaultdict(lambda : {
         'total': 0,

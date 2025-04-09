@@ -39,3 +39,10 @@ LOGGING_CONFIG = {
     "log_file": "logs/app.log",                       # Log file path
     "log_level": "INFO"                               # Logging level (DEBUG, INFO, WARN, ERROR)
 }
+
+# Elasticsearch configuration
+ELASTICSEARCH_CONFIG = {
+    "host": "localhost",  # Elasticsearch host
+    "port": 9200,         # Elasticsearch port
+    "index": "log-analytics"  # Elasticsearch index name
+}

@@ -5,7 +5,20 @@ import json, os, sys
 
 # Add the project root directory to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
-from src.config.config import KAFKA_CONFIG, SPARK_CONFIG, OUTPUT_CONFIG
+from src.config.config import KAFKA_CONFIG, SPARK_CONFIG, OUTPUT_CONFIG, ELASTICSEARCH_CONFIG
+from prometheus_client import start_http_server, Gauge
+import time
+
+# Start Prometheus HTTP server on port 8000
+start_http_server(8000)
+
+# Create Prometheus metrics
+log_level_count = Gauge('log_level_count', 'Count of log levels', ['level'])
+
+def update_prometheus_metrics(batch_df, batch_id):
+    """Update Prometheus metrics with the latest counts"""
+    for row in batch_df.collect():
+        log_level_count.labels(level=row['level']).set(row['count'])
 
 # Define the schema for the log data
 log_schema = StructType([
@@ -89,6 +102,12 @@ def main():
         .option("path", "output/log_counts_parquet") \
         .option("checkpointLocation", "checkpoints/log_counts_parquet") \
         .outputMode("append").start()
+
+    # Write batch-wise statistics to Prometheus
+    batch_stats.writeStream \
+        .foreachBatch(update_prometheus_metrics) \
+        .outputMode("complete") \
+        .start()
 
     # Write the output to the console (using Complete mode)
     query = batch_stats \
